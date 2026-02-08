@@ -9,7 +9,13 @@
 
 * */
 public abstract class PaymentMethod implements Payable{
+
     // fields
     protected String accountHolder;
     protected double balance;
+
+    // constructor: initialize both fields;
+    public PaymentMethod(String accountHolder, double balance){
+        
+    }
 }
