@@ -16,6 +16,7 @@ public abstract class PaymentMethod implements Payable{
 
     // constructor: initialize both fields;
     public PaymentMethod(String accountHolder, double balance){
-        
+        this.accountHolder = accountHolder;
+        this.balance = balance;
     }
 }
