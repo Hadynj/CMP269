@@ -23,7 +23,7 @@ public abstract class PaymentMethod implements Payable{
     // Static Member: Add a static int totalTransactions
     protected  static  int totalTransactions = 0;
 
-    // Abstract Method: abstract void validateAccount();
+    // Abstract Method
     public abstract  void validateAccount();
 }
 
