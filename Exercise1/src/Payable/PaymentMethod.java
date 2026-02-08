@@ -19,4 +19,9 @@ public abstract class PaymentMethod implements Payable{
         this.accountHolder = accountHolder;
         this.balance = balance;
     }
+
+    // Static Member: Add a static int totalTransactions
+    protected  static  int totalTransactions = 0;
+
 }
+
