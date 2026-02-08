@@ -9,5 +9,7 @@
 
 * */
 public abstract class PaymentMethod implements Payable{
-
+    // fields
+    protected String accountHolder;
+    protected double balance;
 }
