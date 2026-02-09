@@ -14,6 +14,11 @@ public abstract class CreditCard extends PaymentMethod{
     // fields
     private double creditLimit;
 
-    
+    // constructor
+    public class CreditCard(String accountHolnder, double balance, double creditLimit){
+        super(accountHolder, balance);
+        this.creditLimit = creditLimit;
+    }
+
 
 }
