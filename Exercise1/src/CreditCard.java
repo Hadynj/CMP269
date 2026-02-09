@@ -20,5 +20,15 @@ public abstract class CreditCard extends PaymentMethod{
         this.creditLimit = creditLimit;
     }
 
+    public void processPayment(double amount){
+        if(amount > balance + creditLimit){
+            System.out.pritnln("Transaction decloned.");
+        }
+        else{
+            balance -= amount;
+            totalTransactions++;
+        }
+    }
+
 
 }
