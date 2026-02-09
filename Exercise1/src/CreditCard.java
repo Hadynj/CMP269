@@ -11,5 +11,9 @@
 
  * */
 public abstract class CreditCard extends PaymentMethod{
+    // fields
+    private double creditLimit;
+
+    
 
 }
