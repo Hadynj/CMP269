@@ -10,7 +10,10 @@
 		Requirement: Use the super keyword to call the parent constructor.
 
  * */
+
+// Create a class CreditCard that extends PaymentMethod
 public abstract class CreditCard extends PaymentMethod{
+
     // fields
     private double creditLimit;
 
@@ -28,7 +31,17 @@ public abstract class CreditCard extends PaymentMethod{
             balance -= amount;
             totalTransactions++;
         }
+
     }
 
+    public String getPaymentStatus(){
+
+    }
+
+    public voidvalidAccount(){
+        if(creditLimit < 0){
+            System.out.println("Invalid credit limit.");
+        }
+    }
 
 }
