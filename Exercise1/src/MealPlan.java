@@ -29,7 +29,8 @@ public abstract class MealPlan extends PaymentMethod {
         if(amount <= balance){
             balance -= amount;
             totalTransactions+;
-            System.out.println();
+            System.out.println(accountHolder + " "
+                balance);
         }
         else{
             System.out.println();
