@@ -29,8 +29,9 @@ public abstract class MealPlan extends PaymentMethod {
         if(amount <= balance){
             balance -= amount;
             totalTransactions+;
-            System.out.println(accountHolder + " "
-                balance);
+            System.out.println("Payment is approoved for " +
+                            accountHolder + ". Remaining balance: $"
+                            + balance);
         }
         else{
             System.out.println("Insufficient meal plan.");
