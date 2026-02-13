@@ -33,7 +33,7 @@ public abstract class MealPlan extends PaymentMethod {
                 balance);
         }
         else{
-            System.out.println();
+            System.out.println("Insufficient meal plan.");
         }
     }
 
