@@ -15,14 +15,17 @@ public abstract class MealPlan extends PaymentMethod {
 		super(accountHolder, balance);
 		
 	}
-	
+
+    //
 	@Override
 	public void validateAccount() {
 		if (balance < 0) {
-			throw new IllegalArgumentException("")
+			throw new IllegalArgumentException("Meal plan cannot be less " +
+                    "the balance")
 		}
 	}
-	
+
+    //
 	public void processPayment(double amount) {
         valideAccount();
 
@@ -30,7 +33,7 @@ public abstract class MealPlan extends PaymentMethod {
             balance -= amount;
             totalTransactions+;
             System.out.println("Payment is approoved for " +
-                            accountHolder + ". Remaining balance: $"
+                            accountHolder + ". Remaining balance is: $"
                             + balance);
         }
         else{
