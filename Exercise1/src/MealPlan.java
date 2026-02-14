@@ -8,7 +8,7 @@
 				if the balance is sufficient).
 
  * */
-
+// constructor
 public abstract class MealPlan extends PaymentMethod {
 
 	public MealPlan(String accountHolder, double balance) {
@@ -16,7 +16,7 @@ public abstract class MealPlan extends PaymentMethod {
 		
 	}
 	
-	
+	@Override
 	public void validateAccount() {
 		if (balance < 0) {
 			throw new IllegalArgumentException("")
