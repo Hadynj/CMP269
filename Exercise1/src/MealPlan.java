@@ -11,34 +11,34 @@
 // constructor
 public abstract class MealPlan extends PaymentMethod {
 
-	public MealPlan(String accountHolder, double balance) {
-		super(accountHolder, balance);
-		
-	}
+    public MealPlan(String accountHolder, double balance) {
+        super(accountHolder, balance);
+
+    }
 
     //
-	@Override
-	public void validateAccount() {
-		if (balance < 0) {
-			throw new IllegalArgumentException("Meal plan cannot be less " +
+    @Override
+    public void validateAccount() {
+        if (balance < 0) {
+            throw new IllegalArgumentException("Meal plan cannot be less " +
                     "the balance")
-		}
-	}
-
-    //
-	public void processPayment(double amount) {
-        valideAccount();
-
-        if(amount <= balance){
-            balance -= amount;
-            totalTransactions+;
-            System.out.println("Payment is approoved for " +
-                            accountHolder + ". Remaining balance is: $"
-                            + balance);
-        }
-        else{
-            System.out.println("Insufficient meal plan.");
         }
     }
 
+    //
+    public void processPayment(double amount) {
+        valideAccount();
+
+        if (amount <= balance) {
+            balance -= amount;
+            totalTransactions +;
+            System.out.println("Payment is approoved for " +
+                    accountHolder + ". Remaining balance is: $"
+                    + balance);
+        } else {
+            System.out.println("Insufficient meal plan.");
+        }
+    }
 }
+
+
