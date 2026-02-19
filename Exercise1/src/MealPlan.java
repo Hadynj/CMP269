@@ -21,7 +21,7 @@ public abstract class MealPlan extends PaymentMethod {
     public void validateAccount() {
         if (balance < 0) {
             throw new IllegalArgumentException("Meal plan cannot be less " +
-                    "the balance")
+                    "the balance");
         }
     }
 
