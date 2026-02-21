@@ -16,8 +16,16 @@ public class RegistrationApp extends Application {
         grid.setHgap(10);
 
         // TODO: Create Labels and TextFields
+        Label nameLabel = new Label("Student Name:");
+        TextField nameField = new TextField();
+
+        Label courseLabel = new Label("Course Code:");
+        ComboBox<String> courseBox = new ComboBox<>();
+        courseBox.getItems().addAll("CMP 269", "CMP 167", "CMP 128", "CMP 230");
+        courseBox.setPromptText("Select a course");
 
         // TODO: Create the Register Button
+        Button registerButton = new Button("Register");
 
         // TODO: Implement the Button Action using a Lambda
 
