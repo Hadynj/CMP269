@@ -16,7 +16,9 @@ public class RegistrationApp extends Application {
         grid.setHgap(10);
 
         // TODO: Create Labels and TextFields
+
         // TODO: Create the Register Button
+
         // TODO: Implement the Button Action using a Lambda
 
         Scene scene = new Scene(grid, 400, 250);
