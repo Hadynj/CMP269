@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99eccc92-5780-4d1b-9b59-930c168e0cfd" name="Changes" comment="" />
+    <list default="true" id="99eccc92-5780-4d1b-9b59-930c168e0cfd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Kotlin/Exercise3/Exercise1/Exercise1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kotlin/Exercise3/Exercise1/Exercise3.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
