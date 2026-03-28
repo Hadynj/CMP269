@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99eccc92-5780-4d1b-9b59-930c168e0cfd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Kotlin/Exercise3/Exercise1/Dynamic Routing.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Exercise4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise4/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kotlin/Exercise3/buildSrc/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/../Kotlin/Exercise3/buildSrc/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kotlin/Exercise3/buildSrc/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin/Exercise3/Exercise1/Dynamic Routing.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin/Exercise3/Exercise1/Gradle Search.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin/Exercise3/Exercise1/Hello Lehman.gradle.kts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
