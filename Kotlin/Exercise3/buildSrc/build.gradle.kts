@@ -13,5 +13,6 @@ repositories {
 }
 
 dependencies {
-    implementation(libs.kotlin.gradle.plugin)
+    // Pin here (not via a separate buildSrc/settings + catalog) so IntelliJ models classic buildSrc reliably.
+    implementation("org.jetbrains.kotlin:kotlin-gradle-plugin:2.2.21")
 }
