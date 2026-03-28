@@ -13,6 +13,6 @@ repositories {
 }
 
 dependencies {
-    // Pin here (not via a separate buildSrc/settings + catalog) so IntelliJ models classic buildSrc reliably.
+    // Match `gradle/libs.versions.toml`; classic buildSrc avoids IntelliJ NPE on isolated buildSrc settings.
     implementation("org.jetbrains.kotlin:kotlin-gradle-plugin:2.2.21")
 }
