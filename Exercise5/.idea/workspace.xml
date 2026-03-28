@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99eccc92-5780-4d1b-9b59-930c168e0cfd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Exercise4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kotlin/Exercise3/Exercise1/Dynamic Routing.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kotlin/Exercise3/Exercise1/Gradle Search.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kotlin/Exercise3/Exercise1/Hello Lehman.gradle.kts" beforeDir="false" />
-    </list>
+    <list default="true" id="99eccc92-5780-4d1b-9b59-930c168e0cfd" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
