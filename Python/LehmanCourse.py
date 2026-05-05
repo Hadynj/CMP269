@@ -21,5 +21,31 @@ course.enroll_student()
 course.enroll_student()
 course.display_info()
 
+# Exercise 2: Specialized Inheritance 
+#Goal: Practice inheritance and the use of super().
+
+class LabCourse(LehmanCourse):
+    def __init__(self, course_name, credits, lab_fee):
+        super().__init__(course_name, credits)  # call parent constructor
+        self.lab_fee = lab_fee
+
+    def display_info(self):
+        print(f"Course: {self.course_name}, Credits: {self.credits}, 
+        Lab Fee: ${self.lab_fee}, Enrolled Students: {self._student_count}")
+
+# Exercise 2 test
+lab_course = LabCourse("CMP 269 Lab", 1, 50)
+lab_course.enroll_student()
+lab_course.display_info()
+
+
+class Professor:
+    def get_role(self):
+        return "Teaching and Research"
+
+
+
+
+
 
 
