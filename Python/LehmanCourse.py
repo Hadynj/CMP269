@@ -39,3 +39,26 @@ lab_course.enroll_student()
 lab_course.display_info()
 
 
+# Exercise 3: Duck Typing Demonstration 
+#Goal: Understand Python's approach to polymorphism
+class Professor:
+    def get_role(self):
+        return "Teaching and Research"
+
+
+class Student:
+    def get_role(self):
+        return "Learning and Coding"
+
+def print_role(person):
+    print(person.get_role())  # works for any object with get_role()
+
+
+
+# Exercise 3 test
+prof = Professor()
+student = Student()
+
+print_role(prof)
+print_role(student)
+
