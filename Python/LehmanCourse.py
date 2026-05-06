@@ -39,13 +39,3 @@ lab_course.enroll_student()
 lab_course.display_info()
 
 
-class Professor:
-    def get_role(self):
-        return "Teaching and Research"
-
-
-
-
-
-
-
