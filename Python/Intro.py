@@ -57,3 +57,7 @@ if __name__ == "__main__":
     exercise_2_collections()
     print("\n--- Exercise 3 ---")
     exercise_3_logic()
+
+
+
+
