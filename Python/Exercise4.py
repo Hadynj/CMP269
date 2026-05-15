@@ -36,3 +36,28 @@ def task_1_series_creation():
     print(building_series)
 
 
+
+def task_2_dataframe_creation():
+    """
+    TASK 2: Create a DataFrame
+
+    1. Create a dictionary of lists containing data for at least 3 courses.
+    2. Convert this into a Pandas DataFrame.
+    3. Print the DataFrame.
+    """
+
+    print("\n--- Task 2: Course DataFrame ---\n")
+
+    # Dictionary of course data
+    course_data = {
+        'CourseCode': ['CMP168', 'CMP269', 'CMP338'],
+        'Credits': [4, 4, 4],
+        'Enrolled': [25, 30, 20]
+    }
+
+    # Convert dictionary to DataFrame
+    df = pd.DataFrame(course_data)
+
+    # Print the DataFrame
+    print(df)
+
