@@ -50,3 +50,27 @@ def task_1_data_cleaning():
     print(clean_df)
 
     return clean_df
+
+
+def task_3_financial_summary(clean_df):
+    """
+    TASK 3: Basic Statistics
+
+    1. Accept the clean_df from Task 1.
+    2. Use describe() on the Close column and print tbe result.
+    3. Manually calculate and print the max 'Volume' for the week 
+    """
+
+    print("\n--- Task 3: Financial Summary ---\n")
+
+    # Describe Close column
+    print("Close Price Statistics:")
+    print(clean_df["Close"].describe())
+
+    # Max Volume
+    max_volume = clean_df["Volume"].max()
+
+    print("\nMaximum Volume for the week:")
+    print(max_volume)
+
+    
