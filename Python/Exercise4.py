@@ -97,3 +97,40 @@ def task_3_data_manipulation():
     print("\nTotal students across all courses:", total_students)
 
 
+def task_4_csv_integration():
+    """
+    TASK 4: The Pandas CSV Advantage
+
+    1. Create a simple DataFrame representing stock data (Symbols and Prices)
+    2. Use df.to_cvs('stocks.cvs', index=False) to Save it
+    3. use pd.read_csv('stocks.csv') to read it back into a new variable called df_loaded
+    4. Print df_loaded to prove it worked!.
+    """
+
+    print("\n--- Task 4: Easy CSV I/O ---\n")
+
+    # Create stock DataFrame
+    stock_data = {
+        'Symbol': ['AAPL', 'GOOG', 'MSFT'],
+        'Price': [190.50, 2750.25, 420.10]
+    }
+
+    df = pd.DataFrame(stock_data)
+
+    # Save to CSV
+    df.to_csv('stocks.csv', index=False)
+
+    # Read CSV back into DataFrame
+    df_loaded = pd.read_csv('stocks.csv')
+
+    # Print loaded DataFrame
+    print(df_loaded)
+
+
+if __name__ == "__main__":
+    #uncomment these as you work through the assignment 
+    task_1_series_creation()
+    task_2_dataframe_creation()
+    task_3_data_manipulation()
+    task_4_csv_integration()
+    pass
