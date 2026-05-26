@@ -2,7 +2,6 @@
 
 text = input("Enter text: ")
 def convert (text):
-    emoji = text.replace(":)", "🙂")
-    emoji = text.replace("):", "🙁")
-
+    emoji = text.replace(":)", "🙂").replace(":(", "🙁")
+    print(emoji)
 convert(text)
