@@ -15,14 +15,14 @@ print(round(total_mile, "mile"), 4)         # display
 # Exercise 1.3 
 total_sec = (42*60) + 42     # minutes to sec
 print(round(total_sec, "sec"), 2)      # display total sec
-print(total_mile/total_sec, "mile per sec")
+print(total_mile/total_sec, "mile per sec")   # display miles per sec 
 
 
 total_min = (42) + (42/60)    # sec to mins
 print(round(total_min), 2)    # display mins  
-print(total_mile/total_min, "mile per minute")    # display results
+print(total_mile/total_min, "mile per minute")    # display miles per mins
 
 
-total_hr = (42/60)+(42/3600)   
-total_hr
-print(total_mile/total_hr, "mile per hr")   
+total_hr = (42/60)+(42/3600)   # total hrs
+print(round(total_hr, 2))      # display total hrs
+print(total_mile/total_hr, "mile per hr")   # display miles per hr
