@@ -25,7 +25,13 @@ elif x > y:
 else: 
     print("x is equal to y")
 
+# or: decides one or more alternatives 
 '''conditional where there is only one equation
+
+if x < y or x > y:
+    print("x is not equal to y")
+else:
+    print("x is equal to y")
 
 x == y or not
 if x == y:
