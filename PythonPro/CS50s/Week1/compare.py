@@ -10,6 +10,13 @@ x < y --> false
 x is greater than y
 '''
 
+# if statement 
+if x < y:
+    print("x is less than y")
+
+
+# control flow, elif, and else
+
 # check conditional if x < y, x > y, else x == y
 if x < y:          
     print("x is less than y")
