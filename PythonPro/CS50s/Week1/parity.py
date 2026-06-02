@@ -1,4 +1,15 @@
+# Modulo: checks if two numbers divide evenly
+x = int(input("What's x? "))
+
+if x % 2 == 0:
+    print("Even")
+else:
+    print("Odd")
+
+
 #different ways to illustrate ideas w/ the same results 
+
+# create functions: illustrative examples of modulo
 
 # illustration 1
 def main():
