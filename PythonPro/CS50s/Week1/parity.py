@@ -40,7 +40,7 @@ def is_even1(n1):
         return False
 is_even1()
 
-
+#pythonic 
 # illustration 4
 def is_even2(n2):
     n2 = int(input("What's n2?"))    # prompt user for input
